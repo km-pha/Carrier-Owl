@@ -1,11 +1,15 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:q-bio.BM OR cat:q-bio.CB OR cat:q-bio.GN OR cat:q-bio.MN'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        flippase: 2
+        ciliary: 3
+        dynein: 1
+        retrograde: 1
+        ezrin: 1
+        phosrhatidylserine: 1
+        plasma membrane: 2
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 3
